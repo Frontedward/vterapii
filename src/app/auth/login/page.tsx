@@ -7,13 +7,13 @@ export default function LoginPage() {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Вход в систему
+            Вход в кабинет
           </h2>
         </div>
         <LoginForm />
         <div className="text-center">
-          <Link href="/auth/register" className="text-primary hover:text-primary-dark">
-            Нет аккаунта? Зарегистрируйтесь
+          <Link href="/auth/register" className="text-primary hover:text-primary-dark bg-blue-300 text-white px-4 py-2 rounded-md">
+            Впервые здесь? Зарегистрируйтесь
           </Link>
         </div>
       </div>
